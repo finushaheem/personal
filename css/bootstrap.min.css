@@ -1750,22 +1750,22 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .form-check-input.is-valid+.form-check-label,
 .was-validated .form-check-input:valid+.form-check-label {
-    color: #28a745
+    color: #3528a7
 }
 
 .custom-control-input.is-valid~.custom-control-indicator,
 .was-validated .custom-control-input:valid~.custom-control-indicator {
-    background-color: rgba(40, 167, 69, .25)
+    background-color: rgba(40, 63, 167, 0.25)
 }
 
 .custom-control-input.is-valid~.custom-control-description,
 .was-validated .custom-control-input:valid~.custom-control-description {
-    color: #28a745
+    color: #283fa7
 }
 
 .custom-file-input.is-valid~.custom-file-control,
 .was-validated .custom-file-input:valid~.custom-file-control {
-    border-color: #28a745
+    border-color: #283ba7
 }
 
 .custom-file-input.is-valid~.custom-file-control::before,
@@ -1775,7 +1775,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .custom-file-input.is-valid:focus,
 .was-validated .custom-file-input:valid:focus {
-    box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25)
+    box-shadow: 0 0 0 .2rem rgba(40, 42, 167, 0.25)
 }
 
 .custom-select.is-invalid,
@@ -2014,19 +2014,19 @@ fieldset[disabled] a.btn {
 
 .btn-success {
     color: #fff;
-    background-color: #28a745;
+    background-color: #283fa7;
     border-color: #28a745
 }
 
 .btn-success:hover {
     color: #fff;
-    background-color: #218838;
-    border-color: #1e7e34
+    background-color: #3c2188;
+    border-color: #1e207e
 }
 
 .btn-success.focus,
 .btn-success:focus {
-    box-shadow: 0 0 0 3px rgba(40, 167, 69, .5)
+    box-shadow: 0 0 0 3px rgba(40, 53, 167, 0.5)
 }
 
 .btn-success.disabled,
@@ -2038,9 +2038,9 @@ fieldset[disabled] a.btn {
 .btn-success.active,
 .btn-success:active,
 .show>.btn-success.dropdown-toggle {
-    background-color: #218838;
+    background-color: #302188;
     background-image: none;
-    border-color: #1e7e34
+    border-color: #2c1e7e
 }
 
 .btn-info {
@@ -4123,7 +4123,7 @@ tbody.collapse.show {
 }
 
 .alert-success {
-    color: #155724;
+    color: #151657;
     background-color: #d4edda;
     border-color: #c3e6cb
 }
